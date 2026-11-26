@@ -15,7 +15,7 @@ Sube tus archivos a un repositorio de GitHub y comparte la URL. Asegúrate de qu
 */
 
 // Solicitud de datos al usuario
-let nombre = prompt("Como te llamas?");
+const nombre = prompt("Como te llamas?");
 const dni = prompt("Hola " + nombre + ", para comprar deberas confirmar tu DNI:");
 const telefono = prompt("Y tú número telefonico?");
 //convertir a tipo number
